@@ -1,32 +1,53 @@
-body {
+html, body{
 	margin: 0px;
+	padding: 0px;
 	font-family: 'Spicy Rice', cursive;
 	font-size: 50px;
+	height: 100%;
+	width: 100%;
+
 }
 
 .square {
-	padding-top: 12%;
-	padding-bottom: 12%; 
-	transition: background 0.5s;
-	--webkit--transition: background 0.5s;
-	--moz--transition: background 0.5s;
+	height: 25%;
+	background-size: cover;
+	background-position: center;
+}
+
+.word {
+	position: absolute;
+	width: 100%;
+	margin-top: 5%;
 	text-align: center;
+	opacity: 1;
 }
 
-.orange_theme {
-	background-color: orange;
-}
-
-.red_theme {
-	background-color: red;
-}
-
-.blue_theme {
-	background-color: blue;
-}
-
-.black_theme {
+.hover {
+	position: absolute;
+	background-size: cover;
+	background-position: center;
 	background-color: black;
+	height: 25%;
+	width: 100%;
+	opacity: 0.8;
+}
+
+
+
+.ps4_theme {
+	background-image: url("ps4.jpg");
+}
+
+.switch_theme {
+	background-image: url("nintendo.png");
+}
+
+.xbox_theme {
+	background-color: gray;
+}
+
+.steam_theme {
+	background-image: url("steam.jpg");
 }
 
 
